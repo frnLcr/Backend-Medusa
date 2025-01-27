@@ -11,7 +11,7 @@
     "declaration": false,
     "sourceMap": false,
     "inlineSourceMap": true,
-    "outDir": "./.medusa/server",
+    "outDir": "./dist",
     "rootDir": "./",
     "baseUrl": ".",
     "jsx": "react-jsx",
@@ -23,14 +23,6 @@
   "ts-node": {
     "swc": true
   },
-  "include": [
-    "**/*",
-    ".medusa/types/*"
-  ],
-  "exclude": [
-    "node_modules",
-    ".medusa/server",
-    ".medusa/admin",
-    ".cache"
-  ]
+  "include": ["**/*", ".medusa/types/*"],
+  "exclude": ["node_modules", ".medusa/server", ".medusa/admin", ".cache"]
 }
